@@ -14,7 +14,7 @@ const App = () => (
             <Sonner />
             <BrowserRouter>
                 <Routes>
-                    <Route path="/" element={<Index />} />
+                    <Route path="/ARS-Racing/" element={<Index />} />
                     <Route path="*" element={<NotFound />} />
                 </Routes>
             </BrowserRouter>
