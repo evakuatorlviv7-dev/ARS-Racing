@@ -1,5 +1,5 @@
 import {CheckCircle, Phone} from "lucide-react";
-import truckCutout from "../assets/img.jpg";
+import truckCutout from "../assets/video.mp4";
 import { InstagramLogoIcon, ChatBubbleIcon, PaperPlaneIcon } from "@radix-ui/react-icons";
 
 const services = [
@@ -43,19 +43,19 @@ const HeroSection = () => {
                         className="flex-1 flex max-w-lg justify-center opacity-0 animate-slide-in-right order-1 lg:order-2"
                         style={{ animationDelay: "0.6s" }}
                     >
-                        {/*<video*/}
-                        {/*    autoPlay*/}
-                        {/*    loop*/}
-                        {/*    muted*/}
-                        {/*    playsInline*/}
-                        {/*    src={truckCutout}*/}
-                        {/*    className="w-full max-w-lg object-contain"*/}
-                        {/*/>*/}
-                        <img
+                        <video
+                            autoPlay
+                            loop
+                            muted
+                            playsInline
                             src={truckCutout}
-                            alt="Евакуатор ARS Racing — Львів"
-                            className="w-full max-w-lg object-contain animate-float"
+                            className="w-full max-w-lg object-contain"
                         />
+                        {/*<img*/}
+                        {/*    src={truckCutout}*/}
+                        {/*    alt="Евакуатор ARS Racing — Львів"*/}
+                        {/*    className="w-full max-w-lg object-contain animate-float"*/}
+                        {/*/>*/}
                     </div>
 
                     {/* Text: right on mobile, left on desktop */}
