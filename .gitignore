@@ -21,3 +21,4 @@ ARS/node_modules
 *.sln
 *.sw?
 !/src/assets/video.mp4
+/node_modules/
