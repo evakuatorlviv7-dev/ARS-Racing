@@ -9,7 +9,7 @@ const features = [
 
 const AboutSection = () => {
     return (
-        <section id="про нас" className="py-24 relative">
+        <section  className="py-24 relative">
             <div className="container">
                 <div className="text-center mb-16">
                     <h2 className="font-heading text-4xl md:text-5xl font-bold uppercase tracking-tight text-foreground mb-4">
